@@ -12,17 +12,17 @@ xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 ```
 
 ## Objective
-Find the only human-readable file in the `inhere` directory, Read it's contents and use that to enter the next level
+Find the only human-readable file in the `inhere` directory, read its contents and use that to enter the next level
 
 ## Background Research
-None I used knowledge from previous levels to complete this level
+None. I used knowledge from previous levels to complete this level
 
 ## My Approach
 OverTheWire provided me with the information:
 - The password is in the only human-readable file
 - The file is stored in a directory called `inhere`
 
-Firstly, I used the `ls` command to list all the contents of the directory Im in. I saw the `inhere` directory OverTheWire mentioned and entered that directory using the command:
+Firstly, I used the `ls` command to list all the contents of the directory I'm in. I saw the `inhere` directory OverTheWire mentioned and entered that directory using the command:
 ```bash
 cd inhere
 ```
@@ -35,7 +35,7 @@ until I could read the output. I was unhappy with this approach and researched q
 file ./*
 ```
 This command inspects all files in the directory and reports what type of file it is.
-I then discovered that `"human readable"` file are usually stored as:
+I then discovered that `"human readable"` files are usually stored as:
 - `ASCII text`
 - `Unicode text`
 - `UTF-8 text`

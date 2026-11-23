@@ -20,7 +20,7 @@ The password is in a file in the directory `inhere` that has the following prope
 ## Background Research
 Before attempting this level I researched more about the `find` command and discovered that you can add arguments to it like you can with `ls -a`. I discovered that there are 
 arguments that are useful for this level:
-- `-readable` which shows me only files i have permission to read
+- `-readable` which shows me only files I have permission to read
 - `size 1033c` which shows me only files with a size of 1033 bytes (c)
 - `! -executable` The `!` means `"NOT"` so its saying to show only files that are not executable
 
@@ -32,7 +32,7 @@ I also discovered that there are multiple size prefixes, some of them being:
 
 ## My Approach
 OverTheWire provided me with the information:
-- The password is in a file wich has the properties; human-readable, 1033 bytes in size and not executable
+- The password is in a file which has the properties; human-readable, 1033 bytes in size and not executable
 - The file is stored in a directory called `inhere`
 
 Firstly, I listed the contents of the current directory and saw the `inhere` directory and `cd`'d into it.
@@ -40,7 +40,7 @@ I then used the command
 ```bash
 find ./* -readable -size 1033c ! -executable
 ```
-I used this command because the arguements ive included make it so that only files that fit the criteria are shown and found
+I used this command because the arguments I've included make it so that only files that fit the criteria are shown and found
 
 ## Command Breakdown
 ```bash

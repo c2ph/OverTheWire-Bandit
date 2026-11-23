@@ -28,7 +28,7 @@ Firstly, I used the variables given to me and ran the command:
 ```bash
 find / -user bandit7 -group bandit6 -size 33c
 ```
-I used this command because the arguments Ive included make it so that only files that fit the criteria are shown and found.
+I used this command because the arguments I've included make it so that only files that fit the criteria are shown and found.
 I then scrolled through all the files until I found a file which I have access to. I found a file called `bandit7.password`.
 It was in `/var/lib/dpkg/info/` so I ran the command:
 ```bash
@@ -48,7 +48,7 @@ Which gave me the password for me to continue the challenge
 
 
 ## Challenges I faced
-- The challenge was fairly straight forward after I identified the right conditions for the find command
+- The challenge was fairly straightforward after I identified the right conditions for the find command
 
 ## What I Learned
 - The `find` command can search the entire filesystem.

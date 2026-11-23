@@ -12,7 +12,7 @@ Then enter the password:
 ```
 
 ## Objective
-Find the file called `-` in the home directory and read it's contents for the password. Then log into the next level using that password and continue the game.
+Find the file called `-` in the home directory and read its contents for the password. Then log into the next level using that password and continue the game.
 
 ## Background Research
 I didn't do any background research before starting this level because I learnt how to read text files in the level before
@@ -22,14 +22,14 @@ OverTheWire provided me with the information:
 - The password is in a file called `-`
 - The `-` file is located in the home directory
 
-Firstly, I used the `ls` command to list all the contents of the directory Im in. I saw the `-` file OverTheWire mentioned and ran the command:
+Firstly, I used the `ls` command to list all the contents of the directory I'm in. I saw the `-` file OverTheWire mentioned and ran the command:
 
 ```bash
 cat -
 ```
 
-When I ran this command nothing happened so I pressed `CTRL + C` to stop the proccess and went to find out what went wrong.
-I discovered that went you enter 
+When I ran this command nothing happened so I pressed `CTRL + C` to stop the process and went to find out what went wrong.
+I discovered that when you enter 
 ```bash
 cat -
 ```
@@ -58,7 +58,7 @@ cat ./-
 <img width="552" height="176" alt="image" src="https://github.com/user-attachments/assets/d28077e6-8235-40d9-a1ca-c3a766f7e29e" />
 
 ## Challenges I faced
-This level was fairly straightforward after realising I have to use the files path instead of writing just its name.
+This level was fairly straightforward after realising I have to use the file's path instead of writing just its name.
 
 ## What I Learned
 - When I use `-` after a command it is treated as an option not as a filename

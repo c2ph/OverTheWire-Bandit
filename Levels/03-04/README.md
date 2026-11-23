@@ -30,7 +30,7 @@ OverTheWire provided me with the information:
 - The password is in a hidden file
 - The hidden file is stored in a directory called `inhere`
 
-Firstly, I used the `ls` command to list all the contents of the directory Im in. I saw the `inhere` directory OverTheWire mentioned and entered that directory using the command:
+Firstly, I used the `ls` command to list all the contents of the directory I'm in. I saw the `inhere` directory OverTheWire mentioned and entered that directory using the command:
 ```bash
 cd inhere
 ```
@@ -38,7 +38,7 @@ Then I ran the command `ls` but the hidden file wasn't listed since `ls` by defa
 ```bash
 ls -a
 ```
-Which listed 2 directorys and one file called `...Hiding-From-You`
+Which listed 2 directories and one file called `...Hiding-From-You`
 I then identified that the file that contains the password must be the file called `...Hiding-From-You` so I ran the command:
 ```bash
 cat ...Hiding-From-You

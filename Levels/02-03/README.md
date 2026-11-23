@@ -12,7 +12,7 @@ PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 ```
 
 ## Objective
-Find the file called `--spaces in this filename--` in the home directory and read it's contents for the password. Then log into the next level using that password and continue the game.
+Find the file called `--spaces in this filename--` in the home directory and read its contents for the password. Then log into the next level using that password and continue the game.
 
 ## Background Research
 I didn't do any background research before starting this level because I learnt how to read text files in the level before
@@ -22,7 +22,7 @@ OverTheWire provided me with the information:
 - The password is in a file called `--spaces in this filename--`
 - The `--spaces in this filename--` file is located in the home directory
 
-Firstly, I used the `ls` command to list all the contents of the directory Im in. I saw the `--spaces in this filename--` file OverTheWire mentioned and because the filename contained spaces 
+Firstly, I used the `ls` command to list all the contents of the directory I'm in. I saw the `--spaces in this filename--` file OverTheWire mentioned and because the filename contained spaces 
 I encased the filename in quotation marks and therefore ran the command:
 
 ```bash

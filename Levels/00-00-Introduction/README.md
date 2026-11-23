@@ -6,7 +6,7 @@ Connect to the Bandit game server using SSH and successfully log in as the 'band
 ## Background Research
 Before attempting this level, I had never used or heard of SSH before. So rather than copying the command directly, I researched 'what SSH is, how it works, and how to use it'
 I found out that SSH (Secure Shell) is a cryptographic network protocol that allows users to securely connect to remote computers over an unsecured network. It encrypts all 
-communication between the client and the server, protecting passwords and transmitted data from being intercepted. and to use this tool you have to run the command
+communication between the client and the server, protecting passwords and transmitted data from being intercepted. To use this tool you have to run the command
 
 ```bash
 ssh username@remote_host_ip -p port number
@@ -40,10 +40,10 @@ typing 'yes'. After doing that I entered the password and successfully logged in
 
 ## Challenges I faced
 - Since this was my first time using SSH, I wasn't familiar with the syntax.
-- I also didn't understand why i was displayed a security warning before connecting.
+- I also didn't understand why I was displayed a security warning before connecting.
 
 ## What I Learned
-- What is SSH and why its used
+- What is SSH and why it's used
 - How to use SSH to securely connect to a remote server
 - What a port is and its purpose in network communication
 
